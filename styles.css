@@ -20,7 +20,7 @@ body {
 .left-side-wrapper {
 	flex: 2;
 	height: 100vh;
-	background: url('/images/background-left-side.jpg');
+	background: url('./images/background-left-side.jpg');
 	background-size: 100% 100%;
 }
 
@@ -38,7 +38,7 @@ body {
 	width: 13rem;
 	margin-left: 3rem;
 	height: 80%;
-	background: url('/images/odin-lined.png');
+	background: url('./images/odin-lined.png');
 	background-size: 100% 100%;
 }
 
