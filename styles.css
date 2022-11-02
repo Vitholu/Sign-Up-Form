@@ -18,7 +18,7 @@ body {
 }
 
 .left-side-wrapper {
-	flex: 1.7;
+	flex: 2;
 	height: 100vh;
 	background: url('/images/background-left-side.jpg');
 	background-size: 100% 100%;
@@ -56,14 +56,34 @@ body {
 }
 
 .right-side-wrapper {
-	flex: 3.5;
+	flex: 3.7;
 	background-color: #f9fafb;
 }
+
 .header {
+	margin-top: 10%;
 	display: flex;
 	flex-direction: column;
 	font-family: 'Open Sans', sans-serif;
 }
+
+.header-text-wrapper {
+	font-size: 2.8rem;
+	padding: 4rem;
+	margin-right: 24rem;
+}
+
+.ykywt {
+	font-size: 2.8rem;
+	padding-top: 1.6rem;
+	padding-left: 4rem;
+	margin-bottom: 6.4rem;
+}
+
+em {
+	font-style: italic;
+}
+
 .main {
 	background-color: #ffffff;
 }
